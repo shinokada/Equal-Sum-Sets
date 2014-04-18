@@ -22,24 +22,26 @@ The end of the input is indicated by a line containing three zeros.
 The output for each dataset should be a line containing a single integer that gives the number of the sets that satisfy the conditions. No other characters should appear in the output.
 
 ## Sample Input
-9 3 23
-9 3 22
-10 3 28
-16 10 107
-20 8 102
-20 10 105
-20 10 155
-3 4 3
-4 2 11
-0 0 0
+
+    9 3 23
+    9 3 22
+    10 3 28
+    16 10 107
+    20 8 102
+    20 10 105
+    20 10 155
+    3 4 3
+    4 2 11
+    0 0 0
 
 ## Sample Output
-1
-2
-0
-20
-1542
-5448
-1
-0
-0
+
+    1
+    2
+    0
+    20
+    1542
+    5448
+    1
+    0
+    0
