@@ -6,6 +6,6 @@ class Equalsumsets
   # @param s [Fixnum] Sum of elements
   # @return [Fixnum] number of solution
   def self.find_set(n, k, s)
-    (1..n).to_a.combination(k).to_a.map{ |item| item.inject(:+) }.find_all{ |i| i==s }.count
+    (1..n).to_a.combination(k).to_a.map { |item| item.inject(:+) }.find_all { |i| i == s }.count
   end
 end
